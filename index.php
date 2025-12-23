@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet" />
+
     <title>Übermensch – Education Aid Disbursement System</title>
+
     <style>
         body {
             font-family: 'Fredoka', sans-serif;
@@ -16,10 +18,10 @@
             background-color: #f4f6f8;
         }
 
-        /* Header and Navigation */
         header {
             background-color: #0d3b66;
         }
+
         nav {
             max-width: 1200px;
             margin: 0 auto;
@@ -28,11 +30,13 @@
             align-items: center;
             justify-content: space-between;
         }
+
         .nav_logo h1 a {
             color: #fff;
             text-decoration: none;
             font-size: 26px;
         }
+
         .nav_link {
             list-style: none;
             display: flex;
@@ -40,17 +44,17 @@
             margin: 0;
             padding: 0;
         }
+
         .nav_link li a {
             color: #fff;
             text-decoration: none;
             font-weight: 500;
-            transition: color 0.3s;
         }
+
         .nav_link li a:hover {
             color: #ffdd00;
         }
 
-        /* Main Section */
         main {
             display: flex;
             justify-content: center;
@@ -59,54 +63,41 @@
             text-align: center;
             flex-direction: column;
         }
+
         main h1 {
             color: #0d3b66;
-            font-weight: 600;
-            margin-bottom: 10px;
         }
+
         main p {
             color: #333;
             font-size: 18px;
             max-width: 600px;
         }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            nav {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .nav_link {
-                flex-direction: column;
-                gap: 10px;
-                margin-top: 10px;
-            }
-        }
     </style>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="nav_logo">
-                <h1><a href="index.php">Übermensch</a></h1>
-            </div>
-            <ul class="nav_link">
-                <li><a href="show_students.php">Students</a></li>
-                <li><a href="admin_dashboard.php">Aid Providers</a></li>
-                 <!-- <li><a href="admin_dashboard.php">Aid Providers</a></li> -->
-                  <li><a href="admin_dashboard.php">Aid Providers</a></li>
-                <li><a href="#">Reports</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="home">
-            <h1>Welcome to Übermensch</h1>
-            <p>
-                Übermensch is an Education Aid Disbursement System that helps talented students in rural Bangladesh access scholarships and aid. 
-                Track applications, verify students, monitor disbursements, and analyze regional impact transparently and efficiently.
-            </p>
-        </section>
-    </main>
+<header>
+    <nav>
+        <div class="nav_logo">
+            <h1><a href="index.php">Übermensch</a></h1>
+        </div>
+        <ul class="nav_link">
+            <li><a href="show_students.php">Students</a></li>
+            <li><a href="admin_dashboard.php">Aid Providers</a></li>
+            <li><a href="#">Reports</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="home">
+        <h1>Welcome to Übermensch</h1>
+        <p>
+            Übermensch is an Education Aid Disbursement System that helps talented students in rural Bangladesh access scholarships and aid.
+            Track applications, verify students, monitor disbursements, and analyze regional impact transparently and efficiently.
+        </p>
+    </section>
+</main>
 </body>
 </html>
